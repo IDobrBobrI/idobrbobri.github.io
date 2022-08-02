@@ -270,7 +270,40 @@ function gen_3_level() {
 	document.getElementById("24").style.backgroundColor = 'gray';
 	return field;
 }
-function gen_4_level()
+function gen_4_level() {
+	field = [1, 0, 1, 0, 1,
+			 0, 1, 0, 1, 0,
+			 1, 0, 1, 0, 1,
+			 0, 1, 0, 1, 0,
+			 1, 0, 1, 0, 1]
+	document.getElementById("0").style.backgroundColor = 'yellow';
+	document.getElementById("1").style.backgroundColor = 'gray';
+	document.getElementById("2").style.backgroundColor = 'yellow';
+	document.getElementById("3").style.backgroundColor = 'gray';
+	document.getElementById("4").style.backgroundColor = 'yellow';
+	document.getElementById("5").style.backgroundColor = 'gray';
+	document.getElementById("6").style.backgroundColor = 'yellow';
+	document.getElementById("7").style.backgroundColor = 'gray';
+	document.getElementById("8").style.backgroundColor = 'yellow';
+	document.getElementById("9").style.backgroundColor = 'gray';
+	document.getElementById("10").style.backgroundColor = 'yellow';
+	document.getElementById("11").style.backgroundColor = 'gray';
+	document.getElementById("12").style.backgroundColor = 'yellow';
+	document.getElementById("13").style.backgroundColor = 'gray';
+	document.getElementById("14").style.backgroundColor = 'yellow';
+	document.getElementById("15").style.backgroundColor = 'gray';
+	document.getElementById("16").style.backgroundColor = 'yellow';
+	document.getElementById("17").style.backgroundColor = 'gray';
+	document.getElementById("18").style.backgroundColor = 'yellow';
+	document.getElementById("19").style.backgroundColor = 'gray';
+	document.getElementById("20").style.backgroundColor = 'yellow';
+	document.getElementById("21").style.backgroundColor = 'gray';
+	document.getElementById("22").style.backgroundColor = 'yellow';
+	document.getElementById("23").style.backgroundColor = 'gray';
+	document.getElementById("24").style.backgroundColor = 'yellow';
+	return field;
+}
+function gen_rand_level()
 {
 	let shuffle = [];
 	for (let i = 0; i <= 24; i++) {
