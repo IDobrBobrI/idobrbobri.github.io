@@ -73,7 +73,7 @@ function change_colour(click)
 		}
 		//end top-button
 }
-/*(function maksim_generator()
+(function maksim_generator()
 {
 	let shuffle = [];
 	for (let i = 0; i <= 24; i++) {
@@ -81,12 +81,12 @@ function change_colour(click)
 		shuffle.push(random);
 	}
 	field = shuffle;
-	for (let i = 0; i <= 24; i++) {
-		if (field[i] == 0) {
-
+	for (let click = 0; click <= 24; click++) {
+		if (field[click] == 0) {
+			
 		} else {
-
+			change_colour(click);
 		}
 	}
 	return field;
-}())*/
+}())

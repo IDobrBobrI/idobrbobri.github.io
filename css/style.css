@@ -1,11 +1,27 @@
 body {
 	background-color: #DC143C;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-table {
-	margin: 0 auto;
-	margin-top: 15vh;
-    background-color: black;
-    border-spacing: 1px;
+.header {
+	text-align: center;
+	color: #FFFDD0;
+	font-size: 60px;
+	font-family: Georgia, serif;
+	margin-block-end: 0em;
+	margin-block-start: 0.5em;
+}
+.subheader {
+	text-align: center;
+	color: #FFFDD0;
+	font-size: 26px;
+	font-family: Georgia, serif;
+}
+.square {
+	background-color: black;
+	border-radius: 3px;
 }
 .button_play {
 	width: 100px;
@@ -13,4 +29,6 @@ table {
 	background-color: gray;
 	cursor: pointer;
 	border: none;
+	transition-duration: 0.17s;
+	border-radius: 3px;
 }
