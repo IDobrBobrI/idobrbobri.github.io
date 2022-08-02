@@ -1,2 +1,2 @@
 # idobrbobri.github.io
-It is my first website! So enjoy it :D!
+My first JS project! Enjoy! :D
