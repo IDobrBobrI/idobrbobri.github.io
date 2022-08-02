@@ -1,8 +1,39 @@
 let field = [0, 0, 0, 0, 0,
-			 0, 0, 0, 0, 0,
-			 0, 0, 0, 0, 0,
-			 0, 0, 0, 0, 0,
+			 0, 1, 1, 1, 0,
+			 0, 1, 1, 1, 0,
+			 0, 1, 1, 1, 0,
 			 0, 0, 0, 0, 0]
+document.getElementById("0").style.backgroundColor = 'gray';
+document.getElementById("1").style.backgroundColor = 'gray';
+document.getElementById("2").style.backgroundColor = 'gray';
+document.getElementById("3").style.backgroundColor = 'gray';
+document.getElementById("4").style.backgroundColor = 'gray';
+document.getElementById("5").style.backgroundColor = 'gray';
+
+document.getElementById("6").style.backgroundColor = 'yellow';
+document.getElementById("7").style.backgroundColor = 'yellow';
+document.getElementById("8").style.backgroundColor = 'yellow';
+
+document.getElementById("9").style.backgroundColor = 'gray';
+document.getElementById("10").style.backgroundColor = 'gray';
+
+document.getElementById("11").style.backgroundColor = 'yellow';
+document.getElementById("12").style.backgroundColor = 'yellow';
+document.getElementById("13").style.backgroundColor = 'yellow';
+
+document.getElementById("14").style.backgroundColor = 'gray';
+document.getElementById("15").style.backgroundColor = 'gray';
+
+document.getElementById("16").style.backgroundColor = 'yellow';
+document.getElementById("17").style.backgroundColor = 'yellow';
+document.getElementById("18").style.backgroundColor = 'yellow';
+
+document.getElementById("19").style.backgroundColor = 'gray';
+document.getElementById("20").style.backgroundColor = 'gray';
+document.getElementById("21").style.backgroundColor = 'gray';
+document.getElementById("22").style.backgroundColor = 'gray';
+document.getElementById("23").style.backgroundColor = 'gray';
+document.getElementById("24").style.backgroundColor = 'gray';
 function reply_click()
 {
 	let click = event.srcElement.id;
@@ -82,6 +113,39 @@ function check_victory(field) {
 	if (sum == 0) {
 		alert("You won!");
 	}
+}
+function make_clear() {
+	field = [0, 0, 0, 0, 0,
+			 0, 0, 0, 0, 0,
+			 0, 0, 0, 0, 0,
+			 0, 0, 0, 0, 0,
+			 0, 0, 0, 0, 0]
+	document.getElementById("0").style.backgroundColor = 'gray';
+	document.getElementById("1").style.backgroundColor = 'gray';
+	document.getElementById("2").style.backgroundColor = 'gray';
+	document.getElementById("3").style.backgroundColor = 'gray';
+	document.getElementById("4").style.backgroundColor = 'gray';
+	document.getElementById("5").style.backgroundColor = 'gray';
+	document.getElementById("6").style.backgroundColor = 'gray';
+	document.getElementById("7").style.backgroundColor = 'gray';
+	document.getElementById("8").style.backgroundColor = 'gray';
+	document.getElementById("9").style.backgroundColor = 'gray';
+	document.getElementById("10").style.backgroundColor = 'gray';
+	document.getElementById("11").style.backgroundColor = 'gray';
+	document.getElementById("12").style.backgroundColor = 'gray';
+	document.getElementById("13").style.backgroundColor = 'gray';
+	document.getElementById("14").style.backgroundColor = 'gray';
+	document.getElementById("15").style.backgroundColor = 'gray';
+	document.getElementById("16").style.backgroundColor = 'gray';
+	document.getElementById("17").style.backgroundColor = 'gray';
+	document.getElementById("18").style.backgroundColor = 'gray';
+	document.getElementById("19").style.backgroundColor = 'gray';
+	document.getElementById("20").style.backgroundColor = 'gray';
+	document.getElementById("21").style.backgroundColor = 'gray';
+	document.getElementById("22").style.backgroundColor = 'gray';
+	document.getElementById("23").style.backgroundColor = 'gray';
+	document.getElementById("24").style.backgroundColor = 'gray';
+	return field;
 }
 function gen_1_level() {
 	field = [0, 0, 0, 0, 0,
@@ -172,8 +236,8 @@ function gen_2_level() {
 	return field;
 }
 function gen_3_level() {
-	field = [0, 0, 0, 0, 0,
-			 0, 0, 0, 0, 0,
+	field = [1, 1, 1, 1, 1,
+			 1, 1, 1, 1, 1,
 			 1, 1, 1, 1, 1,
 			 1, 1, 1, 1, 1,
 			 0, 0, 0, 0, 0]

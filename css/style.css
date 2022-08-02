@@ -46,15 +46,19 @@ table {
 	transition-duration: 0.17s;
 	border-radius: 3px;
 }
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 320px) {
   /* For phone: */
-label {font-family: Georgia, serif;font-size: 18px;color: #FFFDD0;}
-.button_play {width: 75px;height: 75px;}
-.square {width: 400px;}
+label {font-size: 16px;}
+.header {font-size: 40px;}
+.subheader {font-size: 19px;}
+.button_play {width: 70px;height: 70px;}
+.square {width: 374px;}
 }
 @media only screen and (min-width: 525px) {
   /* For desktop: */
-label {font-family: Georgia, serif;font-size: 24px;color: #FFFDD0;}
+label {font-size: 24px;}
+.header {font-size: 60px;}
+.subheader {font-size: 26px;}
 .button_play {width: 100px;height: 100px;}
 .square {width: 524px;}
 }
