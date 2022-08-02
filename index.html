@@ -16,42 +16,50 @@
 		<div class="square">
 			<table>
 				<tr>
-					<td><button class="button_play" id="0" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="1" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="2" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="3" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="4" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="0" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="1" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="2" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="3" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="4" onclick="reply_click()">‎</button></td>
 				</tr>
 				<tr>
-					<td><button class="button_play" id="5" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="6" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="7" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="8" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="9" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="5" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="6" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="7" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="8" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="9" onclick="reply_click()">‎</button></td>
 				</tr>
 				<tr>
-					<td><button class="button_play" id="10" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="11" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="12" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="13" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="14" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="10" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="11" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="12" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="13" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="14" onclick="reply_click()">‎</button></td>
 				</tr>
 				<tr>
-					<td><button class="button_play" id="15" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="16" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="17" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="18" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="19" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="15" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="16" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="17" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="18" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="19" onclick="reply_click()">‎</button></td>
 				</tr>
 				<tr>
-					<td><button class="button_play" id="20" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="21" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="22" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="23" onclick="reply_click()">‎</button></td>
-					<td><button class="button_play" id="24" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="20" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="21" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="22" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="23" onclick="reply_click()">‎</button></td>
+					<td><button class="button_play_small button_play" id="24" onclick="reply_click()">‎</button></td>
 				</tr>
 			</table>
 		</div>
+		<input type="radio" id="1level" name="fav_language" value="1LEVEL" onclick="gen_1_level()">
+		<label for="1level">First level</label><br>
+		<input type="radio" id="2level" name="fav_language" value="2LEVEL" onclick="gen_2_level()">
+		<label for="2level">Second level</label><br>
+		<input type="radio" id="3level" name="fav_language" value="3LEVEL" onclick="gen_3_level()">
+		<label for="3level">Third level (by Maksim)</label><br>
+		<input type="radio" id="4level" name="fav_language" value="4LEVEL" onclick="gen_4_level()">
+		<label for="4level">Generate random (idea by Maksim; code by me)</label><br>
 	</div>
 		<script type="text/javascript" src="js/script.js"></script>
 </body>

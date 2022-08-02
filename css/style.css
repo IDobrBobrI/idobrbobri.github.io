@@ -5,6 +5,17 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+label {
+	font-family: Georgia, serif;
+	font-size: 24px;
+	color: #FFFDD0;
+}
+table {
+	min-width: 110px;
+}
+[class*="col-"] {
+  float: left;
+}
 .header {
 	text-align: center;
 	color: #FFFDD0;
@@ -22,6 +33,9 @@ body {
 .square {
 	background-color: black;
 	border-radius: 3px;
+	width: 524px;
+	display: flex;
+	justify-content: center;
 }
 .button_play {
 	width: 100px;
@@ -31,4 +45,16 @@ body {
 	border: none;
 	transition-duration: 0.17s;
 	border-radius: 3px;
+}
+@media only screen and (min-width: 350px) {
+  /* For phone: */
+label {font-family: Georgia, serif;font-size: 18px;color: #FFFDD0;}
+.button_play {width: 75px;height: 75px;}
+.square {width: 400px;}
+}
+@media only screen and (min-width: 525px) {
+  /* For desktop: */
+label {font-family: Georgia, serif;font-size: 24px;color: #FFFDD0;}
+.button_play {width: 100px;height: 100px;}
+.square {width: 524px;}
 }
